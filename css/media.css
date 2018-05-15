@@ -1,0 +1,309 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	
+	.block-second h4{		
+		padding: 38px 50px 38px 50px;		
+	}
+
+	.block-img h4 .alignment-string{
+		display:inline-block;				
+	}
+	.block-img h4{
+		font-size: 22px;
+	}
+	.navbar-inner .navbar-bottom li a {  
+		padding: 16px 18px 16px 18px;   
+	}
+	.item-contact {
+		width: 28%;
+	}
+	.block-img h4 .alignment-string_last {
+		display:inline-block;
+	}
+	.img-bg.first .img-bg_inner .item-text h4 {
+		font-size: 20px;
+	}
+	.img-bg_inner .item-text p {    
+		padding: 0;
+		width: 100%; 
+	}
+	.navbar-default .navbar-top li a { 
+		padding: 16px 20px 16px 20px;  
+	}
+	.img-inner .coast-item .coast-string {
+    font-size: 28px;
+	}
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	h1{
+		font-size:73px;
+	}
+	.paint-block {
+		padding: 0 20px 61px 20px;
+	}
+	.item-indent {
+		margin-bottom: 119px;
+	}
+	.liked-item_block.last {
+		margin-bottom: 35px;
+	}
+	.navbar-inner .item-contact li {
+		float: left;
+	}
+	.item-contact {
+		width: 100%;
+	}
+	.navbar-inner .item-contact li:last-child {
+		background: url(../img/pic-17.png) no-repeat 32px 8px;
+		padding: 0px 0px 0px 53px;
+	}
+	.navbar-inner .item-contact li {
+		padding: 5px 0px 0px 41px;
+	}
+	.img-bg_inner .item-text h4 {
+		font-size: 15px;
+	}
+	.img-bg.first .img-bg_inner .item-text h4 {
+		font-size: 15px;
+	}
+	.img-bg_inner .item-text p {    
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		font-size: 13px; 
+	}
+	.img-bg_inner .item-text {  
+		padding: 0; 
+	}
+	.img-bg.second .img-bg_inner .item-text p {
+		margin:0;
+		padding: 0;
+	}
+	.img-bg.third .img-bg_inner .item-text {
+		padding: 0;
+	}
+	.img-bg.third .img-bg_inner .item-text p {
+		margin: 3px 0 4px 0;
+		padding: 0px;
+	}
+	.navbar-default .navbar-top li a {
+		padding: 16px 12px 16px 12px;
+	}
+	.navbar-default .navbar-top li a {
+		font-size: 15px;
+	}
+	.navbar-default .navbar-right li span {
+		font-size: 17px;
+	}
+	.navbar-default .navbar-right li span strong {
+		font-size: 22px;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.navbar-inner .navbar-bottom li:nth-child(1) a {
+		padding: 16px 30px 16px 0px;
+	}
+	.navbar-inner .navbar-bottom li a {
+		font-size: 19px;
+	}
+	.navbar-bottom,.item-contact{
+		position: relative;
+		left: 50%;
+	}
+	.navbar-bottom li,.item-contact li{
+		position: relative;
+		left: -50%;
+	}
+	.navbar-inner .navbar-bottom li a {
+		padding: 16px 10px 16px 10px;
+	}
+	.navbar-inner .item-contact li:last-child {
+		background: url(../img/pic-17.png) no-repeat 25px 8px;
+		padding: 0px 0px 0px 50px;
+	}
+	.navbar-inner .item-contact li {
+		padding: 5px 0px 0px 37px;
+	}
+
+}
+@media only screen and (max-width : 680px) {
+	.paint-block h1 {
+		font-size: 57px;
+	}
+	.paint-block h3 {
+		font-size: 38px;
+		margin: 0 0 55px 0;
+	}
+	.navbar-inner .item-contact li {
+		font-size: 17px;
+		color: #ffffff;
+		padding: 4px 0px 0px 41px;
+	}
+	.navbar-inner .item-contact li:last-child strong {
+		font-size: 21px;
+	}
+	.navbar-inner .item-contact li:last-child {
+		background: url(../img/pic-17.png) no-repeat 25px 4px;
+		padding: 0px 0px 0px 50px;
+	}
+	.navbar-inner .navbar-bottom li a {
+		font-size: 17px;
+	}
+	.footer-bottom {   
+		padding: 26px 0;
+	}
+
+}
+@media only screen and (max-width : 580px) {
+
+	.paint-block h3 {
+		font-size: 30px;
+	}
+	.paint-block .btn-head {
+		padding: 22px 70px;   
+	}
+	.navbar-inner .item-contact li {
+		font-size: 17px;
+		color: #ffffff;
+		padding: 4px 0px 0px 14px;
+	}
+	.footer h1 {
+		font-size: 61px;
+	}
+	.navbar-inner .item-contact li {
+		
+		padding: 4px 0px 0px 21px;
+	}
+	.navbar-inner .navbar-bottom li a {
+		padding: 16px 8px 16px 7px;
+	}
+	.navbar-inner .navbar-bottom li a {
+		font-size: 15px;
+	}
+	.paint-block h1,.footer h1 {
+		font-size: 53px;
+	}
+	.img-bg_inner .item-text {
+		position: static;
+	}
+	.img-bg_inner .item-text p {    
+		font-size: 14px; 
+	}
+	.table-inner .table-inner_role tr td {  
+		font-size: 16px;
+	}
+
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.paint-block h1,.footer h1 {
+		font-size: 36px;
+	}
+	.paint-block h3 {
+		font-size: 24px;   
+	}
+	.paint-block .btn-head {
+		padding: 13px 50px;
+	}
+	.btn-calculate {
+		font-size: 18px;  
+		padding: 21px 16px;
+	}
+	.paint-block {
+		padding: 0 10px 61px 10px;
+	}
+	.block-third h4 {
+		padding: 27px 25px 24px 20px;
+	}
+	.item-form .btn-submitt {  
+		font-size: 27px;   
+		padding: 23px 0px;
+	}
+	.img-inner .coast-item {
+		padding: 10px 0px 16px 0px;
+	}
+	.img-inner .coast-item .coast-string {
+		font-size: 25px;
+	}
+	.block-second h4 {
+		padding: 38px 40px 38px 40px;
+	}
+	.table-inner .table-inner_role tr td {   
+		font-size: 14px;  
+	}
+	.table-bottom .table-inner_role .td-first {
+		font-size: 14px;
+	}
+	.table-bottom .table-inner_role .th-last {
+		font-size: 14px;
+	}
+	.navbar-inner .navbar-bottom li a {
+		font-size: 13px;
+	}
+	.navbar-inner .item-contact li {
+		font-size: 12px;
+		color: #ffffff;
+	}
+	.navbar-inner .item-contact li:last-child strong {
+		font-size: 14px;
+	}
+	.navbar-inner .item-contact li:last-child {
+		background: url(../img/pic-17.png) no-repeat 25px 0px;
+		padding: 0px 0px 5px 50px;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.paint-block .btn-head {
+		padding: 10px 29px;
+		font-size: 21px;
+	}
+	.paint-block h3 {
+		font-size: 22px;   
+	}
+	
+	.block-img h4 {
+		font-size: 19px;
+	}
+	.item-form .btn-submitt {
+		font-size: 22px;  
+		padding: 14px 0px;   
+	}
+	.paint-block h1,.footer h1 {
+		font-size: 33px;
+	}
+	.img-inner .coast-item .coast-string {
+		font-size: 15px;
+	}
+
+	.table-inner .table-inner_role .th-last {
+		font-size: 9px;
+	}
+	.table-inner .table-inner_role tr td {
+		font-size: 9px;
+	}
+	.table-bottom .table-inner_role .td-first {
+		font-size: 9px;
+		line-height: 1.1;
+	}
+	.navbar-inner .item-contact li:last-child {
+		background: url(../img/pic-17.png) no-repeat 25px 0px;
+		padding: 0px 0px 5px 50px;
+		margin: 10px 0 0px 23px;
+	}
+	.navbar-bottom li:last-child,.navbar-bottom li:nth-child(4){
+		margin:0 0 0 36px;
+	}
+	
+}
